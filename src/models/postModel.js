@@ -8,7 +8,7 @@ const permissionsObject = {
 const postSchema = new mongoose.Schema({
     title: String,
     description: String,
-    description3: String,
+    description4: String,
     uid: {
        type: mongoose.Schema.Types.ObjectId,
        ref: "Users"
